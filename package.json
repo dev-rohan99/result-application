@@ -1,0 +1,32 @@
+{
+  "name": "result-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./api/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon api/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-rohan99/result-application.git"
+  },
+  "keywords": [
+    "result",
+    "application"
+  ],
+  "author": "Rohan Mostofa Abir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-rohan99/result-application/issues"
+  },
+  "homepage": "https://github.com/dev-rohan99/result-application#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
